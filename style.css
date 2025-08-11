@@ -190,6 +190,9 @@ ul{
   cursor: pointer;
 }
 @media (max-width: 480px) {
+  h1{
+    display: none;
+  }
   .footer-ul {
     display: none;
   }
