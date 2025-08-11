@@ -189,3 +189,40 @@ ul{
   border-radius: 5px;
   cursor: pointer;
 }
+@media (max-width: 480px) {
+  .footer-ul {
+    display: none;
+  }
+
+  .footer-panel {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 10px 0;
+    gap: 10px;
+  }
+
+  .footer-boking,
+  .footer-media {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .media-icon i {
+    margin: 5px;
+    font-size: 18px;
+  }
+
+  .onePlus-spt {
+    padding-left: 0;
+    font-size: 14px;
+  }
+
+  ul {
+    align-items: center;
+    gap: 6px;
+  }
+}
+
+
